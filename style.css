@@ -1,0 +1,118 @@
+/* Configuração geral */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #FFDAB9;
+    color: #333;
+}
+
+header {
+    background-color: #FF6347;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+marquee {
+    background-color: #ffcc00;
+    color: black;
+    padding: 0.5em 0;
+}
+
+main {
+    margin: 20px auto;
+    max-width: 900px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: square;
+    margin: 20px 0;
+    padding-left: 40px;
+}
+
+.song-list {
+    text-align: center; 
+    list-style-position: inside; 
+    margin: 0 auto; 
+    padding: 0;
+}
+
+
+img {
+    display: block;
+    max-width: 100%;
+    margin: 20px auto;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+video {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    text-align: center;
+}
+
+form {
+    margin: 20px 0;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #FF7F50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #FF6347;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #f4f4f9;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 0.9em;
+    color: #555;
+}

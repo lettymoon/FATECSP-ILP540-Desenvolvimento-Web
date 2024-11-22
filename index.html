@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto HTML e CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Meu Projeto</h1>
+        <marquee>Goo goo gjoob!</marquee>
+    </header>
+
+    <main>
+        <section class="content">
+            <h2>Sobre o Projeto</h2>
+            <center>
+            <p>Esta é uma página para mostrar meu álbum favorito da banda The Beatles!</p>
+            </center>
+
+            <hr>
+
+            <h3>Magical Mystery Tour</h3>
+            <ul class="song-list">
+                <li>Magical Mystery Tour</li>
+                <li>The Fool On the Hill</li>
+                <li>Flying</li>
+                <li>Blue Jay Way</li>
+                <li>Your Mother Should Know</li>
+                <li>I Am the Walrus</li>
+                <li>Hello, Goodbye</li>
+                <li>Strawberry Fields Forever</li>
+                <li>Penny Lane</li>
+                <li>Baby, You're a Rich Man</li>
+                <li>All You Need is Love</li>
+            </ul>
+
+            <hr>
+
+            <h3>Imagem</h3>
+            <img style="text-align:center" src="https://i.pinimg.com/736x/f6/9c/31/f69c311432e65c1a60980e32efe2250c.jpg" alt="Hello, Goodbye">
+            
+            <h3>Vídeo</h3>               
+            <iframe 
+                style="display: block; margin: 0 auto; text-align: center;"
+                width="560" height="315" 
+                src="https://www.youtube.com/embed/eCrDvU6F2-E?si=Ko_ILRh_AlgVC5RN&amp;start=15" 
+                frameborder="0"
+                allow="autoplay; encrypted-media" 
+                allowfullscreen>
+            </iframe>
+
+            <h3> Música </h3>
+            <iframe 
+                style="display: block; margin: 0 auto; text-align: center;"
+                src="https://open.spotify.com/embed/track/0vZ97gHhemKm6c64hTfJNA?utm_source=generator" 
+                width="50%" height="152" 
+                frameBorder="0" 
+                allowfullscreen="" 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                loading="lazy">
+            </iframe>
+
+            <h3> Álbum </h3>
+            <iframe 
+                style="display: block; margin: 0 auto; text-align: center;"
+                src="https://open.spotify.com/embed/album/6P9yO0ukhOx3dvmhGKeYoC?utm_source=generator" 
+                width="50%" 
+                height="160" 
+                frameBorder="0" 
+                allowfullscreen="" 
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                loading="lazy">
+            </iframe>
+        </section>
+
+        <hr>
+
+        <section class="form-section">
+            <h2>Formulário de Contato</h2>
+            <form action="#" method="POST">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section class="table-section">
+            <h2>Tabela de Exemplo</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Email</th>
+                        <th>Mensagem</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John Lennon</td>
+                        <td>john.walrus@mail.com</td>
+                        <td>"I am the Walrus"</td>
+                    </tr>
+                    <tr>
+                        <td>Paul McCartney</td>
+                        <td>james.macca@mail.com</td>
+                        <td>"Yesterday"</td>
+                    </tr>
+                    <tr>
+                        <td>George Harrison</td>
+                        <td>hare.krishna@mail.com</td>
+                        <td>"Here Comes the Sun"</td>
+                    </tr>
+                    <tr>
+                        <td>Ringo Starr</td>
+                        <td>richard.starkey@mail.com</td>
+                        <td>"With a Little Help From My Friends"</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>Projeto desenvolvido por <a href="https://github.com/lettymoon" target="_blank">lettymoon</a> ❤️</p>
+    </footer>    
+</body>
+</html>
